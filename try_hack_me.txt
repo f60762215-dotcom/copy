@@ -1,0 +1,109 @@
+command : dirb 
+for : {
+Offensive Security is about thinking like an attacker to find weaknesses before real hackers do. The opposite, defensive security, is about keeping hackers out and acting when it goes wrong.
+
+Offensive : 
+Sarah
+TESTING LOGINS
+Tries logging into the bank's website using common passwords on a test account, to see whether it accepts weak ones.
+
+defensive :
+Mike
+ADDING A FIREWALL RULE
+Adds a firewall rule that prevents suspicious login attempts on their systems.
+
+}
+
+
+Defensive security : {
+An Attack Begins
+You sit down at your new workstation and are greeted by FakeBank's security dashboard.
+
+Security Operation Centres use a variety of tools (such as a monitoring dashboard) to gain an overall picture of what is happening within the organisation's digital landscape. These dashboards capture activity across devices, the network, and more.
+
+Setting the Scene
+It's a Monday, the start of your new career in defensive security. You enter the SOC of FakeBank, an up-and-coming banking institute and are greeted by Cassidy, who will be helping you get up to speed with things.
+
+It looks like you've joined at the perfect time. Currently, someone is making hundreds of attempts to log in to FakeBank's systems. Press the green "View Site" button below to start investigating.
+
+The monitoring dashboard shows a history of what has happened on FakeBank's systems. Tools like the monitoring dashboard are able to understand what happens day-to-day, to build what is called a baseline. When events deviate from this regular activity, the SOC team is alerted.
+
+However, it's all well and good knowing that something bad is happening, we need to understand exactly what is happening, and who, to stop this.
+
+
+    
+You'll need to...
+1. Open the monitoring dashboard by pressing the green button above
+2. Take a look at the alert in front of you
+3. Reveal the information within the alert to answer the question below.
+
+Stopping the Attack
+Now that we have confirmed that an attack is indeed happening. Using the information we discovered in the previous task, we can immediately stop the attacker in their tracks.
+
+For the defensive security team, stopping an attack - or incident - is a high priority. The sooner we can stop the attacker, the less harm that will come to the organisation.
+
+Stopping an attacker can be harder than it sounds. Modern attackers are smart, and often change their behaviour if they know they have been spotted. What stopped them once may not stop them again.
+
+Protecting FakeBank
+Cassidy now wants to begin stopping the attacker by disabling the dave.saunders account. Time is running out before the attacker finds the correct password.
+
+    
+You'll need to...
+1. View the usernames on the "Account Management" page
+2. Disable the account dave.saunders by pressing the padlock next to the username
+3. Once done, a green success message will appear. Provide the value of this message in the question below.
+
+
+Lock the dave.saunders account by clicking the padlock icon next to the name. What value (flag) has appeared once this was done?
+
+Investigating the Attacker
+Phew, that was close. Great job on stopping the attacker.
+
+Remember from task 3: the monitoring dashboard suggested that this attacker may be the notorious ShadowFigures group, which is targeting banking organisations like FakeBank.
+
+It turns out, it's not this group's first time. In defensive security, we share information about attackers. This is known as threat intelligence.
+
+Now that dave.saunders has been locked, what will ShadowFigures try next?
+
+Creating Threat Intelligence
+For this portion of the room, we will be using FakeBank's threat intelligence system to note what ShadowFigures has just done.
+
+The key to good threat intelligence is keeping it updated. Cassidy wants you to update FakeBank's systems to include what just happened.
+
+
+View Site
+Character
+    
+You'll need to...
+1. Search for "ShadowFigures"
+2. Update the intelligence report with what we have discovered.
+3. Once done, a green success message will appear. Use the value of that to answer the question below.
+Why you're doing this
+The monitoring dashboard shows a history of what the attacker is trying to find on our website. You will see that the dashboard has captured the attacker trying many attempts to access hidden pages, very quickly.
+
+Once we know what the attacker is trying to achieve, we can then begin to take measures to stop the attacker and then finally fix the problem that allowed this attack in the first place.
+
+Answer the questions below
+Update FakeBank's systems to include what page - and username - ShadowFigures tried to hack.
+A green success message will appear. What is the value (flag) of that?
+
+Incident Reports
+Great, your colleagues thank you for updating FakeBank's systems about ShadowFigures.
+
+But there is one last step for us to do. We need to create an incident report of what has just happened. We use these reports in defensive security to summarise what has just occurred and use them as training opportunities.
+
+Submitting an Incident Report
+Thankfully, FakeBank has another tool that lets us create an incident report based on what we have already done.
+
+
+View Site
+Character
+    
+You'll need to...
+1. Within the incident report, enter both the username that we previously locked and the page that the attacker was trying to access.
+2. Once you've submitted your report, return to the room.
+Why you're doing this
+Answer the questions below
+What is the identifier of the incident report that you submit?
+
+}

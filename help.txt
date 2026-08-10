@@ -1,0 +1,10 @@
+The file you can edit your black arch menu : 
+
+
+
+the file you can edit your black arch xterm - term - uxterm font and size : 
+~/.Xresources
+
+-
+xterm -fa "DejaVu Sans Mono" -fs 40
+uxterm can do that 
